@@ -26,8 +26,8 @@ params = (
 )
 
 login_data = {
-    'j_username' : "cyrusbaybay",
-    'j_password' : "Ninjas1237a7k1x1O!"
+    'j_username' : "username", #Where my username goes
+    'j_password' : "password" #Where my password goes
 }
 
 with requests.Session() as s:
