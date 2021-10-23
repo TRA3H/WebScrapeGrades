@@ -1,3 +1,16 @@
+#USING PYTHON REQUESTS 
+#Created by Cyrus Baybay
+#October 22, 2021
+#Open Source 
+
+
+#==========================================================================================
+#==========================================================================================
+#==================================Begin code area=========================================
+#==========================================================================================
+#==========================================================================================
+
+
 import requests
 from bs4 import BeautifulSoup
 cookies = {
@@ -41,7 +54,6 @@ with requests.Session() as s:
 
 
 
-#NB. Original query string below. It seems impossible to parse and
-#reproduce query strings 100% accurately so the one below is given
-#in case the reproduced version is not "correct".
-# response = requests.get('https://shibboleth.fullerton.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1', headers=headers, cookies=cookies)
+#==========================================================================================
+#=========================================End==============================================
+#==========================================================================================
